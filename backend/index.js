@@ -8,7 +8,7 @@ app.use(express.urlencoded({ extended: true }));
 app.use(cors());
 
 mongoose.connect(
-    "mongodb+srv://admin:admin@cluster0.gq2a9v4.mongodb.net/Kavach",
+  "mongodb+srv://admin:admin@cluster0.rxnpu.mongodb.net/Kavach",
   () => {
     console.log("connected to DB");
   }

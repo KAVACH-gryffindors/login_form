@@ -18,6 +18,6 @@
       "@form/*": ["./src/*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "src/pages/components/Register.js"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "src/pages/components/Register.js", "src/config/walletConfig.js", "src/config/walletConfig.js"],
   "exclude": ["node_modules"]
 }
