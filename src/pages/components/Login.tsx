@@ -46,10 +46,10 @@ export default function Login() {
     <>
     <Header />
       <div className=" max-h-max ">
-        <div className="flex-1 flex flex-col justify-center py-20 px-4 sm:px-6 lg:flex-none lg:px-20 xl:px-24">
+        <div className="flex-1 flex flex-col justify-center py-36 px-4 sm:py-20 sm:px-4  lg:flex-none lg:px-20 xl:px-24">
           <div className="mx-auto w-full bg-white px-10 py-5 rounded-xl max-w-sm lg:w-96">
             <div>
-              <h2 className="mt-5 text-3xl font-extrabold text-gray-900">Sign in </h2>
+              <h2 className="mt-5 text-3xl font-extrabold text-gray-900 ">Sign in </h2>
               <p className="mt-2 text-sm text-gray-600">
                 Or{' '}
                 <Link href="/components/Register" className="font-medium text-indigo-600 hover:text-indigo-500">
@@ -116,12 +116,6 @@ export default function Login() {
                   </div>
 
                   <div>
-                    {/* <button
-                      type="submit"
-                      className="w-full flex justify-center py-2 px-4 border border-transparent rounded-md shadow-sm text-sm font-medium text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
-                    >
-                      Sign in
-                    </button> */}
                     <button type="button" className ="w-full flex justify-center text-white bg-gradient-to-r from-purple-500 via-purple-600 to-purple-700 hover:bg-gradient-to-br focus:ring-2 focus:outline-none focus:ring-purple-800 dark:focus:ring-purple-800 shadow-lg shadow-purple-500/50 dark:shadow-lg dark:shadow-purple-200 text-lg rounded-lg px-5 py-2.5 text-center mr-2 mb-2 border-transparent rounded-md shadow-sm text-sm font-medium text-white bg-indigo-60 focus:outline focus:ring-offset-2" onClick={login}> Login </button>
                   </div>
                 </form>

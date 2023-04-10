@@ -32,7 +32,7 @@ function Header() {
           <div className="flex lg:flex-1">
             <a href="#" className="-m-1.5 p-1.5">
               <span className="sr-only">Your Company</span>
-              <h3 className="text-gray-200 font-AgrandirGrandHeavy leading-[62px] font-extrabold text-5xl">
+              <h3 className="text-gray-200 font-AgrandirGrandHeavy leading-[62px] font-extrabold text-3xl md:text-5xl">
 						ZK
 						<span className='text-blue-600'>ryptoScan 👾</span>
 					</h3>
@@ -69,7 +69,7 @@ function Header() {
          
               <h3 className="text-yellow font-AgrandirGrandHeavy leading-[62px] font-extrabold text-3xl">
 						ZK
-						<span className='text-blue-600'>Claims</span>
+						<span className='text-blue-600'>ryptoScan</span>
 					</h3>
            
               </a>
@@ -89,7 +89,7 @@ function Header() {
                     <Link
                       key={item.name}
                       href={item.href}
-                      className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-200 hover:bg-gray-50"
+                      className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-black hover:bg-gray-50"
                     >
                       {item.name}
                     </Link>
@@ -98,6 +98,9 @@ function Header() {
                 <div className="py-6">
                  <ConnectButton />
                 </div>
+                <div>
+              {data ===null ? <></>: <button className="btn-grad" onClick={signout}>Sign out</button>}
+              </div>
               </div>
             </div>
           </Dialog.Panel>
