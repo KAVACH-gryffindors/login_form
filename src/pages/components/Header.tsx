@@ -12,7 +12,7 @@ import localStorage from "localStorage"
 
 const navigation = [
 	{ name: 'Home', href: '/' },
-	{ name: 'Collections', href: '/Collections' },
+	{ name: 'Transactions', href: '/Transactions' },
 	]
   
 function Header() {
@@ -34,7 +34,7 @@ function Header() {
               <span className="sr-only">Your Company</span>
               <h3 className="text-gray-200 font-AgrandirGrandHeavy leading-[62px] font-extrabold text-3xl md:text-5xl">
 						ZK
-						<span className='text-blue-600'>ryptoScan 👾</span>
+						<span className='text-yellow-400'>ryptoScan 📈</span>
 					</h3>
             </a>
           </div>
@@ -48,7 +48,7 @@ function Header() {
               <BsReverseLayoutTextSidebarReverse className="h-6 w-6" aria-hidden="true" />
             </button>
           </div>
-          <div className="hidden lg:flex lg:flex-1  lg:gap-x-12 lg:justify-end">
+          <div className="hidden lg:flex lg:flex-1 font-bold  lg:gap-x-12 lg:justify-end">
           {navigation.map((item) => (
               <Link  href={item.href} key={item.name} className="text-lg py-2 font-semibold leading-6  text-gray-200">
                 {item.name}
