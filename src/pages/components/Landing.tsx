@@ -15,9 +15,11 @@ function Landing() {
    
   return (
     <div>
-<Header />
-      
-<div className=" max-h-max ">
+      <div className="sticky top-0 z-50">
+
+  <Header />
+</div>
+<div className=" max-h-max relative">
     <div className="flex-1 flex flex-col py-16 px-4 sm:py-20 sm:px-4 justify-center lg:flex-none lg:px-20 xl:px-24">
       <div className="mx-auto w-full  text-white px-10 py-16 rounded-xl ">
 
