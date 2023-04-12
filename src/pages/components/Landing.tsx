@@ -117,7 +117,7 @@ function Landing() {
 
 </thead>
 
-<tbody className="table-body">
+<tbody className="table-body ">
 
 <tr className="table-row">
 
@@ -343,7 +343,7 @@ function Landing() {
     <div className="wrapper">
       <img src="https://s2.coinmarketcap.com/static/img/coins/64x64/6636.png" className="w-5 h-5" />
       <h3>
-        <a href="#" className="coin-name">Palkadot <span className="span">DOT</span></a>
+        <a href="#" className="coin-name">Polkadot <span className="span">DOT</span></a>
       </h3>
     </div>
   </td>
@@ -375,7 +375,7 @@ function Landing() {
       <section className="section instruction px-20 py-20 mb-24" aria-label="instruction" data-section>
         <div className="container text-white">
 
-          <h2 className="text-3xl font-bold section-title">How It Work</h2>
+          <h2 className="text-4xl font-bold section-title">How It Works</h2>
 
           <p className="section-text">
             Stacks is a production-ready library of stackable content blocks built in React Native.
@@ -393,7 +393,7 @@ function Landing() {
 
                 <p className="card-subtitle">Step 1</p>
 
-                <h3 className="h3 card-title">Connect Wallet</h3>
+                <h3 className="text-md font-bold card-title">Connect Wallet</h3>
 
                 <p className="card-text">
                   Stacks Is A Production-Ready Library Of Stackable Content Blocks Built In React.
@@ -444,7 +444,7 @@ function Landing() {
               <div className="instruction-card">
 
                 <figure className="card-banner">
-                  <img src="./assets/images/instruction-4.png" width="96" height="96" loading="lazy" alt="Step 4"
+                  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgK9WB716kKj1FLTn3T2ONDND8Lp5JLjzZAw&usqp=CAU" width="96" height="96" loading="lazy" alt="Step 4"
                     className="img" />
                 </figure>
 

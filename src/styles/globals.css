@@ -263,7 +263,7 @@
   .table-row:not(.table-title) { height: 90px; }
   
   .market-table .table-row {
-    font-size: var(--fs-5);
+    font-size: var(--fs-7);
     border-block-end: 1px solid var(--raisin-black);
     transition: var(--transition-1);
   }
@@ -293,7 +293,8 @@
   }
   
   .market-table .coin-name {
-    font-size: var(--fs-5);
+    font-size: var(--fs-7);
+    font-weight: 700;
     display: flex;
     align-items: center;
     gap: 10px;
